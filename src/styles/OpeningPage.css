@@ -1,0 +1,38 @@
+/* Ensure the opening page takes the full viewport */
+.opening-page {
+  height: 100vh; /* Full screen height */
+  width: 80vw; /* Full screen width */
+  background-color: #f9f9f9; /* Background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Stack logo and text vertically */
+}
+
+.home_logo {
+  width: 340px; /* Set logo width */
+  height: auto; /* Automatically scale height based on width */
+  opacity: 1; /* Ensure the logo is fully visible */
+}
+
+.home_text {
+  width: 100%; /* Adjust text width relative to viewport for scaling */
+  font-family: "Poppins", sans-serif;
+  font-size: calc(8px + 0.5vw); /* Scale font size with viewport width */
+  font-weight: 400;
+  line-height: calc(15px + 0.5vw); /* Scale line height with font size */
+  text-align: center; /* Center align the text */
+  color: #888888;
+  margin-top: 0rem; /* Space below the logo */
+  transform: translateX(11px); /* Shift text 10px to the right */
+}
+.home_logo, .home_text {
+  opacity: 0;
+  animation: fadeIn 3s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

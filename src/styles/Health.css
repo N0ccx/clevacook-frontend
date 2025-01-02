@@ -1,0 +1,152 @@
+/* Page Container */
+.health-page {
+  height: 125vh;
+  width: 80vw;
+  background-color: #ffffff; /* White background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.back-wrrow {
+  font-size: 40px;
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 0 auto;
+}
+
+/* Section */
+.section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.section label {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #555;
+}
+.section select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #878787;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #878787;
+}
+
+/* Grid Containers for Allergies */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.grid-item {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  border: 0.5px solid #878787;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 36px;
+  background-color: #F4F4F9;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.secti0n1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.secti0n1 label {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #555;
+  margin-left: 190px;
+} 
+.secti0n1 select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #878787;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #878787;
+}
+
+.grid-item:hover,
+.grid-item.active {
+  background-color: #2E86AB; /* Highlight color */
+  color: #fff;
+}
+
+/* Add New Button */
+.add-new-btn {
+  grid-column: span 4;
+  justify-self: left;
+}
+
+/* Grid Containers for Health Conditions */
+.grid-c2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+  margin-left: 190px;
+}
+
+/* Next Button */
+.next-button-container {
+  margin-top: auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+.next-bu5ton {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #e63946;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.next-button:hover {
+  opacity: 0.9;
+}

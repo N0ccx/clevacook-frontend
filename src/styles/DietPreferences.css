@@ -1,0 +1,155 @@
+/* Page Container */
+.diet-preferences-page {
+  height: 125vh;
+  width: 80vw; /* Adjust to fit various device widths */
+  background-color: #ffffff; /* White background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box; /* Ensures padding doesn't affect width/height */
+}
+
+/* Navbar */
+.navbar {
+  width: 100%; /* Full width of the page */
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.back-wrrow {
+  font-size: 24px;
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 0 auto;
+}
+
+/* Rectangles Section */
+.rectangles-section {
+  width: 100%; /* Full width */
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Space between rectangles */
+}
+
+.r3ctangl3 {
+  width: 85%; /* Responsive width */
+  max-width: 360px; /* Limit the width for larger screens */
+  aspect-ratio: 5 / 1; /* Maintain a fixed rectangle ratio */
+  background: linear-gradient(94.55deg, #2e86ab 0.52%, #133645 217.56%);
+  border-radius: 8px; /* Rounded corners */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space out the image and text */
+  padding-right: 20px; /* Consistent padding */
+  cursor: pointer; /* Pointer cursor for interactivity */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden; /* Hide overflow for power clip effect */
+  position: relative;
+}
+
+/* Power Clip for Images */
+.r3ctangl3 img {
+  width: 120  px; /* Responsive image size */
+  height: auto; /* Ensure a square image */
+  object-fit: cover; /* Maintain aspect ratio while filling the space */
+  border-radius: 50%; /* Optional: Make the image circular */
+  transition: transform 0.3s ease; /* Smooth scaling on hover/active */
+}
+
+.r3ctangl3:hover img,
+.r3ctangl3.active img {
+  transform: scale(1.1); /* Slight zoom for power clip effect */
+}
+
+/* Text Inside the Rectangles */
+.diet-text-box {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 10px;
+  transition: color 0.3s ease; /* Smooth text color change */
+}
+
+/* Hover and Active States */
+.r3ctangl3:hover,
+.r3ctangl3.active {
+  transform: scale(1.05); /* Slight zoom for rectangle */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.r3ctangl3:hover .diet-text-box,
+.r3ctangl3.active .diet-text-box {
+  color: #ffffff; /* Text color when highlighted */
+}
+
+/* Button Styling */
+.custom-next3-btn {
+  width: 60%; /* Responsive width */
+  max-width: 337px; /* Limit button width */
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #E63946;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  margin-top: 90px;
+}
+
+.custom-next3-btn:hover {
+  transform: scale(1.05); /* Button zoom effect */
+  opacity: 0.9;
+}
+
+/* Responsive Design Breakpoints */
+@media (max-width: 768px) {
+  .diet-preferences-page {
+    padding: 15px;
+  }
+
+  .r3ctangl3 {
+    width: 90%; /* Adjust width for smaller devices */
+  }
+
+  .diet-text-box {
+    font-size: 14px; /* Smaller text for smaller screens */
+  }
+
+  .custom-next3-btn {
+    width: 70%;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar h2 {
+    font-size: 16px; /* Smaller font for very small screens */
+  }
+
+  .r3ctangl3 {
+    width: 100%; /* Full width for very small screens */
+  }
+
+  .diet-text-box {
+    font-size: 12px; /* Smaller text */
+  }
+
+  .custom-next3-btn {
+    width: 80%;
+  }
+}

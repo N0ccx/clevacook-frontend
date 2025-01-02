@@ -1,0 +1,179 @@
+/* Page Container */
+.signup-page {
+    height: 120vh; /* Full screen height */
+    width: 80vw; /* Full screen width */
+    background-color: #f9f9f9; /* Background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .back-wrrow {
+    font-size: 40px;
+    text-decoration: none;
+    color: #333;
+    margin-right: 3 0px;
+  }
+  
+  .navbar h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    text-align: center;
+    flex: 1; /* Center-align the title between back arrow and edge */
+  }
+  
+  /* Logo Section */
+  .logo-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .logo {
+    width: 200px;
+    height: auto;
+    opacity: 1;
+    margin-top: 4px;
+  }
+  
+  /* Form */
+  .signup-form {
+    width: 90%;
+    max-width: 351px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-top: 70px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    color: #030303;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 351px; /* Set the width of the input */
+    border: none; /* Remove default borders */
+    border-bottom: 0.7px solid #000; /* Create a thin underline */
+    outline: none; /* Remove the default focus outline */
+    background: transparent; /* Make the background transparent */
+    font-family: "Poppins", sans-serif; /* Use Poppins font */
+    font-size: 14px; /* Adjust the font size */
+    color: #000; /* Text color */
+    padding: 5px 0; /* Adjust vertical padding for spacing */
+  }
+  
+  .form-group input:focus {
+    border-bottom: 0.7px solid #e63946; /* Change underline color on focus */
+  }  
+  
+  /* Password Field */
+  .password-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .password-container input {
+    width: 351px;
+    border: none; /* Remove default borders */
+    border-bottom: 0.7px solid #000; /* Create a thin underline */
+    outline: none; /* Remove the default focus outline */
+    background: transparent; /* Make the background transparent */
+    font-family: "Poppins", sans-serif; /* Use Poppins font */
+    font-size: 14px; /* Adjust the font size */
+    color: #000; /* Text color */
+    padding: 5px 0; /* Adjust vertical padding for spacing */
+  }
+  
+  .eye-icon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: -40px;
+  }
+  
+  /* Checkboxes */
+  .f0rm-check {
+    display: flex;
+    align-items: right;
+    gap: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #888888;
+    justify-content: space-between;
+  }
+  .f0rm-check label {
+    margin-right: 10px; /* Optional: Add spacing between label and checkbox */
+    text-align: left;
+    flex: 1; /* Ensure the label spans the available space */
+    color: #888; /* Label text color */
+  }
+  .f0rm-check a {
+    color: #E63946;
+    text-decoration: none;
+  }
+  
+  .f0rm-check a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Get Started Button */
+  .get-started-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #e63946;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .get-started-btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* Already a Member Section */
+  .member-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #888;
+    margin-top: 20px;
+  }
+  
+  .member-text a {
+    color: #888888;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .member-text a:hover {
+    text-decoration: underline;
+  }
+  

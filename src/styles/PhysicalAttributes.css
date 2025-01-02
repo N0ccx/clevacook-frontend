@@ -1,0 +1,172 @@
+/* Page Container */
+.physical-attrs-page {
+    height: 125vh;
+    width: 80vw;
+    background-color: #ffffff; /* White background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .back-wrrow {
+    font-size: 40px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navbar h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0 auto;
+  }
+  
+  /* Form */
+  .attributes-form {
+    width: 100%;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Form Group */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Ensure no overflow outside container */
+    text-overflow: ellipsis; /* Add ellipsis if the text overflows */
+    display: inline-block; /* */
+  }
+/* Height Page */
+
+  .height-weight-page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .f0rm-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+  }
+  
+  .height-dropdowns {
+    display: flex;
+    gap: 10px; /* Space between ft and in dropdowns */
+  }
+  
+  /* Dropdown styling */
+  .custom-dropdown {
+    width: 92px;
+    height: 36px;
+    padding: 5px;
+    border: 0.5px solid #878787; /* Light gray border */
+    border-radius: 3px;
+    background-color: #f4f4f9; /* Background color */
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .custom-dropdown:focus {
+    outline: none;
+    border-color: #2e86ab; /* Highlight color */
+  }
+  
+  .custom-dropdown option {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  label {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #333;
+  }  
+  
+  /* Button Group */
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Custom Buttons */
+  .custom-btn {
+    width: 92px;
+    height: 36px;
+    background-color: #ddd; /* Default color */
+    border: none;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-btn:hover,
+  .custom-btn.active {
+    background-color: #2E86AB; /* Highlight color */
+    color: #fff;
+  }
+  
+  /* Dropdown Menu */
+  .dropdown {
+    width: 100%;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+/* Next Button */
+.custom-next1-btn {
+    width: 100%;
+    padding: 12px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #E63946;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    margin-top: 75px;
+  }
+  
+  .custom-next1-btn:hover {
+    opacity: 0.9;
+  }

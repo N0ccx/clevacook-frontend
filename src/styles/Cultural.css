@@ -1,0 +1,106 @@
+/* Page Container */
+.cultural-prefs-page {
+  height: 120vh;
+  width: 80vw;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.back-arrow {
+  font-size: 30px;
+  text-decoration: none;
+  color: #333;
+  margin-right: 10px;
+}
+
+.navbar h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 0 auto;
+}
+
+/* Form Group */
+  /* Form Group */
+  .form2-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form2-group label {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .form2-group select {
+    padding: 10px;
+    border: 1px solid #878787;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #878787;
+  }
+  
+  /* Region Preference */
+  .note {
+    font-size: 12px;
+    color: #878787;
+    margin-top: 5px;
+    line-height: 1.2;
+  }
+  
+  .toggle-btn {
+    width: 92px;
+    height: 36px;
+    background-color: #ddd;
+    border: 0.5px solid #ddd;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #878787;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-btn.active {
+    background-color: #e63946;
+    color: #fff;
+  }
+  
+  /* Submit Button */
+  .get-started-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #e63946;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .get-started-btn:hover {
+    opacity: 0.9;
+  }
+    

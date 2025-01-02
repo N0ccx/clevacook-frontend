@@ -1,0 +1,150 @@
+/* Ensure the get started page takes the full viewport */
+.get-started-page {
+    height: 100vh; /* Full screen height */
+    width: 80vw; /* Full screen width */
+    background-color: #f9f9f9; /* Background color */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Space between top and bottom sections */
+    align-items: center; /* Center horizontally */
+    padding: 20px 0; /* Add vertical padding */
+  }
+  
+  /* Logo and text container */
+  .jumbotron2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+    margin-top: 50px; /* Adjust logo and text placement */
+  }
+  
+  /* Logo styling */
+  .get-started-2-logo {
+    width: 340px; /* Set logo width */
+    height: auto; /* Automatically scale height based on width */
+    opacity: 1; /* Ensure the logo is fully visible */
+    margin-bottom: -10px; /* Adjust spacing between logo and text */
+  }
+  
+  /* Text styling */
+  .get-started-text {
+    width: 100%; /* Adjust text width relative to viewport for scaling */
+    font-family: "Poppins", sans-serif;
+    font-size: calc(7px + 0.5vw); /* Scale font size with viewport width */
+    font-weight: 400;
+    line-height: calc(15px + 0.5vw); /* Scale line height with font size */
+    text-align: center; /* Center align the text */
+    color: #888888; /* Text color */
+    margin-top: 0.5rem; /* Add slight space above text */
+    transform: translateX(13px);
+  }
+  
+  /* Bottom section */
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  /* Sign up button */
+  .nav-item {
+    width: 348px;
+    height: 50px;
+    background-color: #e63946; /* Button background color */
+    color: #fff; /* Button text color */
+    font-family: "Poppins", sans-serif;
+    font-size: calc(12px + 0.2vw); /* Scale font size dynamically */
+    font-weight: bold;
+    text-align: center;
+    line-height: 39px; /* Center text vertically */
+    border: none; /* Remove default borders */
+    border-radius: 3px 0px 0px 0px; /* Rounded corner for the top-left */
+    cursor: pointer; /* Change cursor to pointer */
+    text-decoration: none; /* Remove text underline */
+    margin-bottom: 10px; /* Space between button and login options */
+  }
+  
+  /* Hover effect for the button */
+  .nav-item:hover {
+    opacity: 0.9; /* Slightly fade the button on hover */
+  }
+  
+  /* rects containers for login options */ 
+  .rects {
+    width: 337px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 0.7px 0.7px 0.7px 0.7px; /* Rounded corners */
+    margin-bottom: 15px; /* Space between rectss */
+    padding-left: 10px; /* Add padding for content */
+    background: white; /* White background */
+  }
+  
+  /* rects image styling */
+  .rects img {
+    max-height: 30px;
+    margin-right: 10px;
+  }
+  
+  /* Link styling inside rectss */
+  .text-darrk {
+    font-family: "Poppins", sans-serif;
+    font-size: calc(10px + 0.2vw); /* Scale font size dynamically */
+    color: #000; /* Black text */
+    text-decoration: none; /* Remove underline */
+    font-weight: 400;
+    line-height: 21px; /* Maintain proper spacing */
+    text-align: center; /* Center text horizontally */
+    left: 50%; /* Center horizontally within rects */
+    transform: translateX(-48%); /* Adjust centering */
+    width: 100%; /* Expand text width for proper alignment */
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .text-white {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    font-size: calc(10px + 0.2vw);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Link hover effect */
+  .text-dark:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+
+  .list {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+.h2 {
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.member-texxt {
+  font-family: "Poppins", sans-serif;
+  font-size: calc(13px + 0.2vw); /* Scale font size dynamically */
+  color: #888888; /* Text color */
+  text-align: center; /* Center align the text */
+}
+
+/* Sign In link */;
+.member-texxt a {
+  color: #888888; /* Link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+}
+
+.member-texxt a:hover {
+  text-decoration: underline;
+  color: #888888;/* Move the entire section upwards */
+}
