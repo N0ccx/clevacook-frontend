@@ -1,7 +1,7 @@
 /* Ensure the opening page takes the full viewport */
 .opening-page {
   height: 100vh; /* Full screen height */
-  width: 80vw; /* Full screen width */
+  width: 100vw; /* Full screen width */
   background-color: #f9f9f9; /* Background color */
   display: flex;
   justify-content: center;

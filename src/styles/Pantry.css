@@ -1,0 +1,114 @@
+/* My Tools Page */
+.my-tools-page {
+    height: 130vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: white;
+  }
+  
+  .back-arrow {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .save-button {
+    background: none;
+    border: none;
+    background: linear-gradient(225.54deg, #E63946 30.48%, #F9A826 164.69%);
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* My Tools Section */
+  .my-tools-section {
+    padding: 20px;
+  }
+  
+  .tools-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .tool-box {
+    background-color: #2E86AB;
+    color:  white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .add-tool {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .add-tool input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-tool button {
+    background-color: #2E86AB;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Tools Categories */
+  .tools-category {
+    padding: 20px;
+    display: grid;
+  }
+  .h3 {
+    font-family: "Poppins" sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 16.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;   
+  }
+  
+  .items-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .item-button {
+    background-color: #f4f4f9;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .item-button:hover {
+    background-color: #2E86AB;
+    color: white;
+  }
+  

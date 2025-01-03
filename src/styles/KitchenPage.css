@@ -1,6 +1,6 @@
 /* Kitchen Page Container */
 .kitchen-page {
-    width: 80vw;
+    width: 100vw;
     height: 135vh;
     display: flex;
     flex-direction: column;

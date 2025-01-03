@@ -12,7 +12,8 @@ import HealthPage from "./pages/Health";
 import MealPlan from "./pages/MealPlan";
 import KitchenPage from "./pages/KitchenPage";
 import Dashboard1 from "./pages/Dash";
-import Login2 from "./pages/Login2";
+import Login2 from "./pages/Login2.jsx";
+import MyTools from "./pages/Pantry.jsx";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/meal-plan" element={<MealPlan />} />
         <Route path="/dashboard" element={<Dashboard1 />} />
         <Route path="/kitchen" element={<KitchenPage />} />
+        <Route path="/tools" element={<MyTools />} />
       </Routes>
     </Router>
   );

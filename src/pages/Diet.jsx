@@ -35,11 +35,11 @@ const DietPreferences = () => {
       </div>
         
     
-      {/* Submit Button */}
-      <Link to="/health" className="custom-next3-btn">
-        Next
-      </Link>
+        <Link to="/health" className="custom-next3-btn">
+          Next
+        </Link>
     </div>
+
   );
 };
 

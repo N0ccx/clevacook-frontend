@@ -1,7 +1,7 @@
 /* Page Container */
 .diet-preferences-page {
   height: 125vh;
-  width: 80vw; /* Adjust to fit various device widths */
+  width: 100vw; /* Adjust to fit various device widths */
   background-color: #ffffff; /* White background */
   display: flex;
   flex-direction: column;
@@ -96,20 +96,22 @@
 
 /* Button Styling */
 .custom-next3-btn {
-  width: 60%; /* Responsive width */
-  max-width: 337px; /* Limit button width */
-  padding: 10px;
+  width: 337px;
+  height: auto;
+  background-color: #e63946; /* Button background color */
+  color: #fff; /* Button text color */
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: calc(12px + 0.2vw); /* Scale font size dynamically */
   font-weight: bold;
   text-align: center;
-  background-color: #E63946;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  line-height: 39px; /* Center text vertically */
+  border: none; /* Remove default borders */
+  border-radius: 3px 0px 0px 0px; /* Rounded corner for the top-left */
+  cursor: pointer; /* Change cursor to pointer */
+  text-decoration: none; /* Remove text underline */
+  margin-top: 200px; /* Space between button and login options */
   transition: transform 0.3s ease, opacity 0.3s ease;
-  margin-top: 90px;
+  transform: scaleX(49px);
 }
 
 .custom-next3-btn:hover {

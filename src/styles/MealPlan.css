@@ -1,7 +1,7 @@
 /* Meal Plan Page */
 .meal-plan-page {
     width: 100vh;
-    height: 185vh;
+    height: 240vh;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
